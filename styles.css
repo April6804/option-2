@@ -38,9 +38,7 @@ img{
 /* NOTE Add and change colors and font families */
 h1{
   font-weight: 600;
-  letter-spacing: 3.5px;
   font-size: 2em;
-  text-align: center;
 }
 
 h2{
@@ -136,6 +134,10 @@ footer{
 footer p{
     text-align: center;
 }
+footer .fa{
+  font-size: 1.5em;
+  padding:10px 10px 20px 10px;
+}
 footer div{
     text-align: center;
 }
@@ -153,7 +155,6 @@ footer div{
 /* NOTE Starting styles for logo if it is in the navigation bar as a link ---------- */
 nav #logo a{
     display:inline;
-    /* Added this b/c once the logo was a link, i moved down and wasn't inline with the hamburget menu and other links */
     padding-left:15px;
     /* Added this b/c once it was a link it moved to the right too much. This lowers the left padding. */
 }

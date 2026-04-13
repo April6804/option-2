@@ -276,7 +276,7 @@ nav a{
 
 /* END MOBILE STYLES  --------------------- */
 /* Medium size screen styles below -------- */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
 
   .wrapper{
     width:85%;
@@ -380,7 +380,7 @@ nav a{
 }/* END Medium screen size styles
 Do not delete the curly bracket */
 /* Large Desktop styles below --------------------- */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
 
     .wrapper{
       max-width:900px;

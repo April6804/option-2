@@ -324,59 +324,6 @@ nav a{
 
 
 
-
-  /* NOTE START Nav styles for medium and larger screens-----
-  Do not change nav styles below without help. */
-    .navcontainer{
-      display: grid;
-      min-height: 70px;
-      grid-auto-flow: column;
-      padding-top: 0;
-      padding-bottom: 0;
-      max-width:900px;
-  /*  You can change the max-width. This counter acts the styles above media query so the links could be all the way to the left */
-    }
-    .mainNav {
-      overflow: hidden;
-    }
-    .mainNav .navBars {
-      display: none;
-    }
-    #logo{
-        padding-top:10px;
-    }
-    #logo a{
-
-    }
-    .mainNav .menu {
-      display: block;
-      box-shadow: none;
-      border: none;
-      float: right;
-      /* float:left; */
-      /* NOTE LINKS POSITION to the left*/
-      /* text-align: center; */
-      /* NOTE LINKS POSITION center*/
-      text-align: right;
-      /* NOTE LINKS POSITION to the right*/
-      position: static;
-    }
-    .mainNav .menu li {
-      display: inline-block;
-    }
-    .mainNav .menu a {
-      border: none;
-      padding: 20px 10px;
-    }
-/* END nav styles ---------------------------- */
-
-
-
-
-
-
-
-
 }/* END Medium screen size styles
 Do not delete the curly bracket */
 /* Large Desktop styles below --------------------- */

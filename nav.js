@@ -8,6 +8,7 @@ $(document).ready(function() {
 		},
 		cacheDOM: function() {
 			this.navBars = $(".navBars");
+			this.navClose = $(".navClose");
 			this.xBxHack = $("#xBxHack");
 			this.navMenu = $("#menu");
 		},
@@ -19,6 +20,7 @@ $(document).ready(function() {
 
 			if (width < 600) {
 				this.navBars.click(this.animate.bind(this));
+				this.navClose.click(this.animate.bind(this));
 				this.navMenu.hide();
 				this.xBxHack[0].checked = false;
 			} else {

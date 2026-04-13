@@ -247,6 +247,23 @@ nav a{
   margin: 0 auto;
   padding: 10px;
 }
+/* Closing nav menu --------------------*/
+/* Hide the close X by default */
+.navClose {
+    display: none;
+    text-align: right;
+    cursor: pointer;
+    font-size: 1.5rem;  /* match your hamburger size */
+}
+
+/* When checkbox is checked: hide hamburger icon, show X */
+#xBxHack:checked ~ .navcontainer .navBars {
+    display: none;
+}
+
+#xBxHack:checked ~ .navcontainer .navClose {
+    display: block;
+}
 /* NOTE END MOBILE NAVIGATION STYLES */
 
 

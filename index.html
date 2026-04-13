@@ -27,31 +27,36 @@
 	<!-- NOTE No code between head and body -->
 	<body>
 
-    	<!--NOTE NAV CODE - watch out! Do not change class or id names -->
-		<input type="checkbox" id="xBxHack" />
-		    <!-- This will trigger the dropdown menu when user clicks in the icon  -->
-	    <nav id="mainNav" class="mainNav">
-		   <div class="navcontainer">
-			   <span class="nav-grid">
-				   <span id="logo"><a href="index.html">The Toco Toucan</a></span>
-		    		<label class="navBars" for="xBxHack">
-		    			<i class="fa fa-bars"></i>
-		                <!-- hamburger icon -->
-		    		</label>
-                    <label class="navClose" for="xBxHack"> 
+ <header>
+        <!-- <h1>The Tocu Toucan</h1> -->
+        <nav class="mainNav" id="mainNav"> 
+            <input type="checkbox" id="xBxHack">
+            <!-- trigger for dropdown mobile nav menu icon -->
+             <div class="navcontainer">
+                <span class="nav-grid">
+                    <span id="logo">
+                        <a href="index.html"> The Toco Toucan</a>
+                    </span>
+                    <label for="xBxHack" class="navBars">
+                        <i class="fa fa-bars"></i>
+                    </label>
+                    <!-- ADD THIS TO HAVE A CLOSE BUTTON -->
+                    <label for="xBxHack" class="navClose"> 
                         <i class="fa fa-close"></i>
                     </label>
-				</span>
-	    		<ul id="menu" class="menu">
-	                <!-- TODO: Change links below -->
-	    			<li><a href="index.html">Home</a></li>
-	    			<li><a href="#">Link</a></li>
-	    			<li><a href="#">Link</a></li>
-	    			<li><a href="#">Link</a></li>
-	                <!-- Some of these links above won't be developed - make sure those have a hashtag in the link address so it will keep users from visiting a broken page.-->
-	    		</ul>
-	    	</div><!-- end NAV container-->
-	    </nav><!--NOTE End NAV CODE-->
+                </span><!-- END nav-grid -->
+
+                <ul id="menu" class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">link</a></li>
+                </ul>
+
+             </div><!-- END navcontianer -->
+      
+        </nav>
+    </header>
 
 		<!-- <h1 id="logo"><a href="index.html">The Toco Toucan</a></h1> -->
 		<!-- NOTE Use this h1 above if you want the company text BELOW the Nav bar  -->

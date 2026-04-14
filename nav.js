@@ -18,7 +18,7 @@ $(document).ready(function() {
 		bindEvents: function() {
 			var width = window.innerWidth;
 
-			if (width < 600) {
+			if (width > 600) {
 				this.navBars.click(this.animate.bind(this));
 				this.navClose.click(this.animate.bind(this));
 				this.navMenu.hide();

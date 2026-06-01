@@ -6,6 +6,7 @@ body{
 header{
 
 }
+
 .logo{
 
 }
@@ -17,17 +18,20 @@ nav a{
 }
 p{
   line-height:1.5em;
-}
-p,table{
   margin-top: 13px;
 }
-table, td{
-border:1px solid gray;
-border-collapse: collapse;
-padding: 5px;
+h1{
+  width:90%;
 }
-td{
-  width: 200px;
+
+/* HERO Home page */
+.hero-homepage{
+    height: 30vh;
+    width: 100%;
+    background-image:url("images/green.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom:40px;
 }
 figure{
     margin: 21px 0;
@@ -47,16 +51,11 @@ img{
     /* max-width: 100%; */
   width:100%;
 }
-.width-90{
-  display: block;
-  margin: auto;
-  width:90%;
-}
 main{
     display: block;
     margin: auto;
     width:90%;
-  padding-bottom:30px;
+    padding-bottom:30px;
 }
 hr{
   width:90%;
@@ -93,21 +92,22 @@ content:"";
 footer{
   background-color:#292938;
   color:white;
+  padding-top:30px;
+  padding-bottom:30px;
 }
-
-
-/* HERO Home page */
-.hero-homepage{
-    height: 30vh;
-    width: 100%;
-    background-image:url("images/green.jpg");
-    background-position: center;
-    background-size: cover;
-    margin-bottom:40px;
+.footer-wrapper{
+  width: 90%;
+  margin: auto;
 }
-/* HERO contact page */
+footer .fa{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 20px;
+}
+/* END FOOTER STYLES-------- */
 
-/* START NAV STYLES */
+/* START MOBILE NAV STYLES ----------------- */
 .nav-grid{
     display: grid;
     align-items: center;
@@ -116,14 +116,13 @@ footer{
     /* This could affect the amount of clickable space for users to toggle on the drop down menu. The larger the number then larger thumbs won't have a problem hiting this button */
     grid-auto-flow: column;
 }
-/* Navigation bar styles */
+/* Navigation bar */
 .mainNav {
   background: #00411d;
   /* Change bar color */
   color:#ffffff;
   /* Text color - For hamburger and company name*/
   /* height: 55px; */
-  /* How tall the nav bar is - This number needs to be in sync with the top number for .mainnav .menu below */
   position: relative;
 }
 /* Navigation links styles */
@@ -132,7 +131,6 @@ nav a{
   /* padding:20px; */
   text-decoration: none;
   color: #fff;
-  /* Link color for company name*/
   font-family:  sans-serif;
 }
 .mainNav a {
@@ -217,22 +215,6 @@ nav a{
 }
 /* NOTE END MOBILE NAVIG--------------------------------*/
 
-/* START FOOTER STYLES-------- */
-footer{
-  padding-top:30px;
-  padding-bottom:30px;
-}
-.footer-wrapper{
-  width: 90%;
-  margin: auto;
-}
-footer .fa{
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  padding-right: 20px;
-}
-/* END FOOTER STYLES-------- */
 
 @media only screen and (min-width:600px){
 
@@ -243,19 +225,16 @@ footer .fa{
         width:90%;
         gap:50px;
     }
-    section{
-        
-    }
-    /* HERO Homepage */
-
-    /* HERO contact page */
-
-}/* End larger screen styles */
+   
+}
 
 @media only screen and (min-width:1000px){
+ h1, main, hr, .footer-wrapper{
+   width:80%;
+ }
 
-/* NOTE START Nav styles for medium and larger screens-----
-  Do not change nav styles below without help. */
+  
+/* NOTE START Nav styles -  Do not change nav styles below without help. */
     .navcontainer{
       display: grid;
       min-height: 70px;
@@ -282,5 +261,4 @@ footer .fa{
       border: none;
       padding: 20px 10px;
     }
-    /* END nav styles ---------------------------- */
-    } /* End larger screen styles */
+} /* End larger screen styles */

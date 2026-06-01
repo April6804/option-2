@@ -4,17 +4,8 @@ body{
   font-size:16px;
 }
 header{
-
 }
-
 .logo{
-
-}
-nav{
-
-}
-nav a{
-
 }
 p{
   line-height:1.5em;
@@ -22,9 +13,9 @@ p{
 }
 h1{
   width:90%;
+  margin:auto;
 }
-
-/* HERO Home page */
+/* HERO Home page ---------- */
 .hero-homepage{
     height: 30vh;
     width: 100%;
@@ -49,7 +40,7 @@ figcaption{
 }
 img{
     /* max-width: 100%; */
-  width:100%;
+    width:100%;
 }
 main{
     display: block;
@@ -62,23 +53,18 @@ hr{
   border: 1px solid #ccc;
   margin:30px auto;
 }
-
-section{
-    
-}
+/* Floating can break your layout. Always test this and use the clear fix hack when needed.  */
 .image-on-left{
 height: 200px;
 width: 90%;
 margin: auto;
 display: block;
 }
-
 .clear-fix{
 display: table;
 clear: both;
 content:"";
 }
-
 .image-on-left img{
   float:left;
   border-radius:50%;
@@ -105,7 +91,6 @@ footer .fa{
   font-size: 20px;
   padding-right: 20px;
 }
-/* END FOOTER STYLES-------- */
 
 /* START MOBILE NAV STYLES ----------------- */
 .nav-grid{
@@ -216,7 +201,7 @@ nav a{
 /* NOTE END MOBILE NAVIG--------------------------------*/
 
 
-@media only screen and (min-width:600px){
+@media only screen and (min-width:730px){
 
         main{
         display: grid;

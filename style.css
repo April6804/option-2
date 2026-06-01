@@ -37,7 +37,6 @@ figure{
 figcaption{
     position: absolute;
     bottom:5px;
-    height:35px;
     background-color: rgba(58, 48, 48, 0.645);
     padding:15px 0 15px 20px;
     width:100%;
@@ -159,14 +158,14 @@ nav a{
 .mainNav .menu a {
   color: #fff;
   /* NOTE Link color for drop down */
-  border-bottom: 1px solid #efefef;
+  border-bottom: 1px solid #efefef4a;
   font-weight: normal;
   /* Change to bold if you want */
   display: block;
   padding: 15px;
 }
 .mainNav .menu a:hover {
-  /* background: #292938; */
+  background: #292938;
   /* NOTE Background color when hovering over links */
   color: #efefef;
   /* Color of text when hovering over link */

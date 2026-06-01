@@ -57,7 +57,14 @@ main{
     display: block;
     margin: auto;
     width:90%;
+  padding-bottom:30px;
 }
+hr{
+  width:90%;
+  border: 1px solid #ccc;
+  margin:30px auto;
+}
+
 section{
     
 }

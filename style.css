@@ -116,8 +116,7 @@ footer{
   color:#ffffff;
   /* Text color - For hamburger and company name*/
   /* height: 55px; */
-  /* How tall the nav bar is -
-  NOTE This number needs to be in sync with the top number for .mainnav .menu below */
+  /* How tall the nav bar is - This number needs to be in sync with the top number for .mainnav .menu below */
   position: relative;
 }
 /* Navigation links styles */
@@ -126,7 +125,7 @@ nav a{
   /* padding:20px; */
   text-decoration: none;
   color: #fff;
-  /* NOTE LINK color for company name*/
+  /* Link color for company name*/
   font-family:  sans-serif;
 }
 .mainNav a {
@@ -256,8 +255,6 @@ footer .fa{
       grid-auto-flow: column;
       padding-top: 0;
       padding-bottom: 0;
-      max-width:900px;
-  /*  You can change the max-width. This counter acts the styles above media query so the links could be all the way to the left */
     }
     .mainNav {
       overflow: hidden;
@@ -273,15 +270,8 @@ footer .fa{
     }
     .mainNav .menu {
       display: block;
-      box-shadow: none;
       border: none;
-      float: right;
-      /* float:left; */
-      /* NOTE LINKS POSITION to the left*/
-      /* text-align: center; */
-      /* NOTE LINKS POSITION center*/
       text-align: right;
-      /* NOTE LINKS POSITION to the right*/
       position: static;
     }
     .mainNav .menu li {
